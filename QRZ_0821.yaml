@@ -103,7 +103,7 @@ proxies:
   - {name: 🇯🇵 标准 专线 日本 03, server: bepshbgp01.004837963.xyz, port: 14023, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: dfa504cef6.iqiyi.com}}
   - {name: 🇯🇵 标准 专线 日本 04, server: bepshbgp01.004837963.xyz, port: 14024, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: dfa504cef6.iqiyi.com}}
 
-  - {name: 🇺🇸 备用 美国 加密 01, server: 198.23.174.167, port: 8388, type: vmess, uuid: f240256a3-910f-40e8-b57b-ad0fe6f41e7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: bing.com, udp: true}
+  - {name: 🇺🇸 备用 美国 加密 01, server: 198.23.174.167, port: 8388, type: vmess, uuid: 70073a59-fff4-4b45-ad13-95f388dd4a1f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: bing.com, udp: true}
   - {name: 🇺🇸 备用 美国 加密 02, server: 23.95.137.127, port: 8388, type: vmess, uuid: d18b5a2d-730f-4238-ac28-a44e59b39eb5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: bing.com, udp: true}
 
 proxy-groups:
