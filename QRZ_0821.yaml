@@ -114,6 +114,13 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
 
+  - name: 🎬 链式选择
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    proxies:
+      - 🇭🇰 日用 专线 香港 [0.2]
+      - 🇯🇵 日用 专线 日本 [0.2]
+
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -145,6 +152,8 @@ proxy-groups:
       - 🇯🇵 标准 专线 日本 02
       - 🇯🇵 标准 专线 日本 03
       - 🇯🇵 标准 专线 日本 04
+      - 🇺🇸 加速 美国 链式 01
+      - 🇺🇸 加速 美国 链式 02
       - 🇺🇸 备用 美国 加密 01
       - 🇺🇸 备用 美国 加密 02
     
@@ -165,6 +174,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+
+#链式
+  - {name: 🇺🇸 加速 美国 链式 01, type: relay, proxies: [🎬 链式选择, 🇺🇸 备用 美国 加密 01]}
+  - {name: 🇺🇸 加速 美国 链式 02, type: relay, proxies: [🎬 链式选择, 🇺🇸 备用 美国 加密 02]}
 
 rules:
 # 本地/局域网地址
