@@ -50,7 +50,7 @@ proxies:
 
 #多端口跳转
   - type: hysteria2
-    name: "🇯🇵 备用 专线 日本 001"
+    name: "🇯🇵 主要 专线 日本 001"
     server: 45.78.56.77
     port: 52877
     ports: 10000-20000
@@ -60,21 +60,6 @@ proxies:
     skip-cert-verify: true
     sni: www.bing.com
 
-#备用节点
-  - type: vless
-    name: 🇯🇵 备用 专线 日本 002
-    server: 45.78.56.77
-    port: 29439
-    uuid: 6772da19-3102-471b-8b4a-30b1e8926e0d
-    network: tcp
-    servername: www.yahoo.com
-    tls: true
-    encryption: none
-    reality-opts:
-      public-key: 8kctlxQPmGhGvr6r6eFZ6fYCr0QEzUEgTwn6TupFKSk
-      short-id: 9802af58
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
 
   - {name: "🇭🇰 日用 专线 香港 [0.2]", server: bepgzbgp01.004837963.xyz, port: 14091, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: dfa504cef6.iqiyi.com}}
   - {name: "🇯🇵 日用 专线 日本 [0.2]", server: bepshbgp01.004837963.xyz, port: 14093, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: dfa504cef6.iqiyi.com}}
@@ -105,6 +90,22 @@ proxies:
 
   - {name: 🇺🇸 备用 美国 加密 01, server: 198.23.174.167, port: 8388, type: vmess, uuid: 70073a59-fff4-4b45-ad13-95f388dd4a1f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: bing.com, udp: true}
   - {name: 🇺🇸 备用 美国 加密 02, server: 23.95.137.127, port: 8388, type: vmess, uuid: d18b5a2d-730f-4238-ac28-a44e59b39eb5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: bing.com, udp: true}
+
+#备用节点
+  - type: vless
+    name: 🇯🇵 备用 专线 日本 002
+    server: 45.78.56.77
+    port: 29439
+    uuid: 6772da19-3102-471b-8b4a-30b1e8926e0d
+    network: tcp
+    servername: www.yahoo.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: 8kctlxQPmGhGvr6r6eFZ6fYCr0QEzUEgTwn6TupFKSk
+      short-id: 9802af58
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
 
 proxy-groups:
   - name: 🚀 节点选择
