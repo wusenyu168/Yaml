@@ -50,7 +50,7 @@ proxies:
 
 #多端口跳转
   - type: hysteria2
-    name: "🇯🇵 主要 专线 日本 001"
+    name: "🇯🇵 主要 专线 日本 01"
     server: 45.78.56.77
     port: 52877
     ports: 10000-20000
@@ -60,21 +60,6 @@ proxies:
     skip-cert-verify: true
     sni: www.bing.com
 
-
-  - {name: "🇭🇰 日用 专线 香港 [0.2]", server: bepgzbgp01.004837963.xyz, port: 14091, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: dfa504cef6.iqiyi.com}}
-  - {name: "🇯🇵 日用 专线 日本 [0.2]", server: bepshbgp01.004837963.xyz, port: 14093, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: dfa504cef6.iqiyi.com}}
-  
-  - {name: 🇭🇰 高级 专线 香港 01, server: bepgzbgp01.004837963.xyz, port: 14101, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: dfa504cef6.iqiyi.com}}
-  - {name: 🇭🇰 高级 专线 香港 02, server: bepgzbgp01.004837963.xyz, port: 14102, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: dfa504cef6.iqiyi.com}}
-  - {name: 🇭🇰 高级 专线 香港 03, server: bepgzbgp01.004837963.xyz, port: 14103, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: dfa504cef6.iqiyi.com}}
-  - {name: 🇭🇰 高级 专线 香港 04, server: bepgzbgp01.004837963.xyz, port: 14104, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: dfa504cef6.iqiyi.com}}
-  - {name: 🇭🇰 高级 专线 香港 05, server: bepgzbgp01.004837963.xyz, port: 14105, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: dfa504cef6.iqiyi.com}}
-  - {name: 🇭🇰 高级 专线 香港 06, server: bepgzbgp01.004837963.xyz, port: 14106, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: dfa504cef6.iqiyi.com}}
-  - {name: 🇭🇰 高级 专线 香港 07, server: bepgzbgp01.004837963.xyz, port: 14107, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: dfa504cef6.iqiyi.com}}
-  - {name: 🇭🇰 高级 专线 香港 08, server: bepgzbgp01.004837963.xyz, port: 14108, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: dfa504cef6.iqiyi.com}}
-  - {name: 🇭🇰 标准 专线 香港 01, server: bepgzbgp01.004837963.xyz, port: 14001, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: dfa504cef6.iqiyi.com}}
-  - {name: 🇭🇰 标准 专线 香港 02, server: bepgzbgp01.004837963.xyz, port: 14002, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: dfa504cef6.iqiyi.com}}
-  - {name: 🇭🇰 标准 专线 香港 03, server: bepgzbgp01.004837963.xyz, port: 14003, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: dfa504cef6.iqiyi.com}}  
   - {name: 🇯🇵 标准 专线 日本 01, server: bepshbgp01.004837963.xyz, port: 14021, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: dfa504cef6.iqiyi.com}}
   - {name: 🇯🇵 高级 专线 日本 01, server: bepshbgp01.004837963.xyz, port: 14121, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: dfa504cef6.iqiyi.com}}
   - {name: 🇯🇵 高级 专线 日本 02, server: bepshbgp01.004837963.xyz, port: 14122, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: dfa504cef6.iqiyi.com}}
@@ -88,12 +73,9 @@ proxies:
   - {name: 🇯🇵 标准 专线 日本 03, server: bepshbgp01.004837963.xyz, port: 14023, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: dfa504cef6.iqiyi.com}}
   - {name: 🇯🇵 标准 专线 日本 04, server: bepshbgp01.004837963.xyz, port: 14024, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: dfa504cef6.iqiyi.com}}
 
-  - {name: 🇺🇸 备用 美国 加密 01, server: 198.23.174.167, port: 8388, type: vmess, uuid: 70073a59-fff4-4b45-ad13-95f388dd4a1f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: bing.com, udp: true}
-  - {name: 🇺🇸 备用 美国 加密 02, server: 23.95.137.127, port: 8388, type: vmess, uuid: d18b5a2d-730f-4238-ac28-a44e59b39eb5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: bing.com, udp: true}
-
 #备用节点
   - type: vless
-    name: 🇯🇵 备用 专线 日本 002
+    name: 🇯🇵 备用 专线 日本 02
     server: 45.78.56.77
     port: 29439
     uuid: 6772da19-3102-471b-8b4a-30b1e8926e0d
@@ -107,6 +89,9 @@ proxies:
     client-fingerprint: chrome
     flow: xtls-rprx-vision
 
+  - {name: 🇺🇸 备用 美国 加密 01, server: 198.23.174.167, port: 8388, type: vmess, uuid: 70073a59-fff4-4b45-ad13-95f388dd4a1f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: bing.com, udp: true}
+  - {name: 🇺🇸 备用 美国 加密 02, server: 23.95.137.127, port: 8388, type: vmess, uuid: d18b5a2d-730f-4238-ac28-a44e59b39eb5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: bing.com, udp: true}
+
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -118,18 +103,8 @@ proxy-groups:
     type: url-test
     url: http://www.gstatic.com/generate_204
     proxies:
-      - 🇯🇵 主要 专线 日本 001
-      - 🇯🇵 备用 专线 日本 002
-      - 🇭🇰 日用 专线 香港 [0.2]
-      - 🇯🇵 日用 专线 日本 [0.2]
-      - 🇭🇰 高级 专线 香港 01
-      - 🇭🇰 高级 专线 香港 02
-      - 🇭🇰 高级 专线 香港 03
-      - 🇭🇰 高级 专线 香港 04
-      - 🇭🇰 高级 专线 香港 05
-      - 🇭🇰 高级 专线 香港 06
-      - 🇭🇰 高级 专线 香港 07
-      - 🇭🇰 高级 专线 香港 08
+      - 🇯🇵 主要 专线 日本 01
+      - 🇯🇵 备用 专线 日本 02
       - 🇯🇵 高级 专线 日本 01
       - 🇯🇵 高级 专线 日本 02
       - 🇯🇵 高级 专线 日本 03
@@ -138,13 +113,6 @@ proxy-groups:
       - 🇯🇵 高级 专线 日本 06
       - 🇯🇵 高级 专线 日本 07
       - 🇯🇵 高级 专线 日本 08
-      - 🇭🇰 标准 专线 香港 01
-      - 🇭🇰 标准 专线 香港 02
-      - 🇭🇰 标准 专线 香港 03
-      - 🇯🇵 标准 专线 日本 01
-      - 🇯🇵 标准 专线 日本 02
-      - 🇯🇵 标准 专线 日本 03
-      - 🇯🇵 标准 专线 日本 04
       - 🇺🇸 备用 美国 加密 01
       - 🇺🇸 备用 美国 加密 02
     
