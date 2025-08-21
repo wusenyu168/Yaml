@@ -60,6 +60,7 @@ proxies:
     skip-cert-verify: true
     sni: www.bing.com
 
+  - {name: "🇯🇵 日用 专线 日本 01", server: bepshbgp01.004837963.xyz, port: 14093, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: dfa504cef6.iqiyi.com}}
   - {name: 🇯🇵 标准 专线 日本 01, server: bepshbgp01.004837963.xyz, port: 14021, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: dfa504cef6.iqiyi.com}}
   - {name: 🇯🇵 高级 专线 日本 01, server: bepshbgp01.004837963.xyz, port: 14121, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: dfa504cef6.iqiyi.com}}
   - {name: 🇯🇵 高级 专线 日本 02, server: bepshbgp01.004837963.xyz, port: 14122, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: dfa504cef6.iqiyi.com}}
@@ -103,8 +104,10 @@ proxy-groups:
     type: url-test
     url: http://www.gstatic.com/generate_204
     proxies:
+
       - 🇯🇵 主要 专线 日本 01
       - 🇯🇵 备用 专线 日本 02
+      - 🇯🇵 日用 专线 日本 01
       - 🇯🇵 高级 专线 日本 01
       - 🇯🇵 高级 专线 日本 02
       - 🇯🇵 高级 专线 日本 03
