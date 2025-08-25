@@ -90,9 +90,6 @@ proxies:
     client-fingerprint: chrome
     flow: xtls-rprx-vision
 
-  - {name: 🇺🇸 备用 美国 加密 01, server: 198.23.174.167, port: 8388, type: vmess, uuid: 70073a59-fff4-4b45-ad13-95f388dd4a1f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: bing.com, udp: true}
-  - {name: 🇺🇸 备用 美国 加密 02, server: 23.95.137.127, port: 8388, type: vmess, uuid: d18b5a2d-730f-4238-ac28-a44e59b39eb5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: bing.com, udp: true}
-
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -116,8 +113,6 @@ proxy-groups:
       - 🇯🇵 高级 专线 日本 06
       - 🇯🇵 高级 专线 日本 07
       - 🇯🇵 高级 专线 日本 08
-      - 🇺🇸 备用 美国 加密 01
-      - 🇺🇸 备用 美国 加密 02
     
   - name: 🎯 全球直连
     type: select
@@ -3748,3 +3743,4 @@ rules:
   - IP-CIDR,101.199.196.0/22,🎯 全球直连,no-resolve
   - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼
+
