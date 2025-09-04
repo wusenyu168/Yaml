@@ -59,6 +59,27 @@ proxies:
     skip-cert-verify: true
     sni: www.bing.com
 
+  - type: hysteria2
+    name: "🇯🇵 主要 专线 日本 02"
+    server: 45.78.56.77
+    port: 57585
+    password: 6772da19-3102-471b-8b4a-30b1e8926e0d
+    alpn:
+      - h3      
+    skip-cert-verify: true
+    sni: www.bing.com
+
+      - type: hysteria2
+    name: "🇯🇵 主要 专线 日本 03"
+    server: 45.78.56.77
+    port: 52899
+    password: 6772da19-3102-471b-8b4a-30b1e8926e0d
+    alpn:
+      - h3
+    skip-cert-verify: true
+    sni: www.bing.com
+
+    
   - {name: "🇯🇵 日用 专线 日本 01", server: bepshbgp01.004837963.xyz, port: 14093, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: dfa504cef6.iqiyi.com}}
   - {name: 🇯🇵 标准 专线 日本 01, server: bepshbgp01.004837963.xyz, port: 14021, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: dfa504cef6.iqiyi.com}}
   - {name: 🇯🇵 高级 专线 日本 01, server: bepshbgp01.004837963.xyz, port: 14121, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: dfa504cef6.iqiyi.com}}
@@ -126,8 +147,9 @@ proxy-groups:
     type: url-test
     url: http://www.gstatic.com/generate_204
     proxies:
-
       - 🇯🇵 主要 专线 日本 01
+      - 🇯🇵 主要 专线 日本 02
+      - 🇯🇵 主要 专线 日本 03
       - 🇯🇵 备用 专线 日本 02
       - 🇯🇵 日用 专线 日本 01
       - 🇯🇵 高级 专线 日本 01
@@ -3770,4 +3792,5 @@ rules:
   - IP-CIDR,101.199.196.0/22,🎯 全球直连,no-resolve
   - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼
+
 
