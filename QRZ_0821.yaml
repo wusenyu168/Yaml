@@ -62,7 +62,7 @@ proxies:
   - type: hysteria2
     name: "🇯🇵 主要 专线 日本 02"
     server: 45.78.56.77
-    port: 57585
+    ports: 10000-20000
     password: 6772da19-3102-471b-8b4a-30b1e8926e0d
     alpn:
       - h3      
@@ -72,7 +72,7 @@ proxies:
   - type: hysteria2
     name: "🇯🇵 主要 专线 日本 03"
     server: 45.78.56.77
-    port: 57500
+    ports: 10000-20000
     password: 6772da19-3102-471b-8b4a-30b1e8926e0d
     alpn:
       - h3      
@@ -3792,6 +3792,7 @@ rules:
   - IP-CIDR,101.199.196.0/22,🎯 全球直连,no-resolve
   - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼
+
 
 
 
