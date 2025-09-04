@@ -69,13 +69,13 @@ proxies:
     skip-cert-verify: true
     sni: www.bing.com
 
-      - type: hysteria2
+  - type: hysteria2
     name: "🇯🇵 主要 专线 日本 03"
     server: 45.78.56.77
-    port: 52899
+    port: 57500
     password: 6772da19-3102-471b-8b4a-30b1e8926e0d
     alpn:
-      - h3
+      - h3      
     skip-cert-verify: true
     sni: www.bing.com
 
@@ -3792,5 +3792,6 @@ rules:
   - IP-CIDR,101.199.196.0/22,🎯 全球直连,no-resolve
   - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼
+
 
 
