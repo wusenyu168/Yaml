@@ -113,9 +113,8 @@ proxies:
   - type: hysteria2
     name: "🇺🇸 备用 专线 美国 01"
     server: 155.94.157.57
-    port: 49035
-    ports: 10000-20000
-    password: 0ab7c8a5-fb43-4902-88d7-4c3dd6a61424
+    port: 27807
+    password: afb45625-ac6e-40c0-9a23-796dfa34633c
     alpn:
       - h3
     skip-cert-verify: true
@@ -124,15 +123,15 @@ proxies:
   - type: vless
     name: 🇺🇸 备用 专线 美国 02
     server: 155.94.157.57
-    port: 26941
-    uuid: 0ab7c8a5-fb43-4902-88d7-4c3dd6a61424
+    port: 42136
+    uuid: afb45625-ac6e-40c0-9a23-796dfa34633c
     network: tcp
     servername: www.amd.com
     tls: true
     encryption: none
     reality-opts:
-      public-key: Y0kyJBZDLdu3QsT4vSH4LKnZ6MEZlakIYS1rWfpvuQM
-      short-id: 9f1459e8
+      public-key: Njnp2Ld80HDs-exYhB8Np91NwF6ZMrGat-2HZEWpYTo
+      short-id: ca86687a
     client-fingerprint: chrome
     flow: xtls-rprx-vision
 
@@ -3792,6 +3791,7 @@ rules:
   - IP-CIDR,101.199.196.0/22,🎯 全球直连,no-resolve
   - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼
+
 
 
 
