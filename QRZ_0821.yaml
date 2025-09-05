@@ -94,6 +94,10 @@ proxies:
   - {name: 🇯🇵 标准 专线 日本 03, server: bepshbgp01.004837963.xyz, port: 14023, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: dfa504cef6.iqiyi.com}}
   - {name: 🇯🇵 标准 专线 日本 04, server: bepshbgp01.004837963.xyz, port: 14024, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: dfa504cef6.iqiyi.com}}
 
+  - {name: "🇺🇸 日用 专线 美国 01", server: bepshbgp01.004837963.xyz, port: 14094, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: dfa504cef6.iqiyi.com}}
+  - {name: 🇺🇸 高级 专线 美国 01, server: bepshbgp01.004837963.xyz, port: 14131, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: dfa504cef6.iqiyi.com}}
+  - {name: 🇺🇸 高级 专线 美国 02, server: bepshbgp01.004837963.xyz, port: 14132, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: dfa504cef6.iqiyi.com}}
+
 #备用节点
   - type: vless
     name: 🇯🇵 备用 专线 日本 02
@@ -134,6 +138,9 @@ proxy-groups:
       - 🇯🇵 高级 专线 日本 06
       - 🇯🇵 高级 专线 日本 07
       - 🇯🇵 高级 专线 日本 08
+      - 🇺🇸 日用 专线 美国 01
+      - 🇺🇸 高级 专线 美国 01
+      - 🇺🇸 高级 专线 美国 02
     
   - name: 🎯 全球直连
     type: select
@@ -3764,6 +3771,7 @@ rules:
   - IP-CIDR,101.199.196.0/22,🎯 全球直连,no-resolve
   - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼
+
 
 
 
