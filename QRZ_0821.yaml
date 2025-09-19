@@ -80,7 +80,6 @@ proxies:
     skip-cert-verify: true
     sni: www.bing.com
 
-  - {name: "🇯🇵 日用 专线 日本 [0.2]", server: bepshbgp01.004837963.xyz, port: 14093, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: d9aca024f3.iqiyi.com}}
   - {name: 🇯🇵 高级 专线 日本 01, server: bepshbgp01.004837963.xyz, port: 14121, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: d9aca024f3.iqiyi.com}}
   - {name: 🇯🇵 高级 专线 日本 02, server: bepshbgp01.004837963.xyz, port: 14122, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: d9aca024f3.iqiyi.com}}
   - {name: 🇯🇵 高级 专线 日本 03, server: bepshbgp01.004837963.xyz, port: 14123, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: d9aca024f3.iqiyi.com}}
@@ -88,8 +87,8 @@ proxies:
   - {name: 🇯🇵 高级 专线 日本 05, server: bepshbgp01.004837963.xyz, port: 14125, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: d9aca024f3.iqiyi.com}}
   - {name: 🇯🇵 高级 专线 日本 06, server: bepshbgp01.004837963.xyz, port: 14126, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: d9aca024f3.iqiyi.com}}
   - {name: 🇯🇵 高级 专线 日本 07, server: bepshbgp01.004837963.xyz, port: 14127, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: d9aca024f3.iqiyi.com}}
+  - {name: 🇯🇵 高级 专线 日本 08, server: bepshbgp01.004837963.xyz, port: 14128, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: d9aca024f3.iqiyi.com}}
 
-  - {name: "🇺🇸 日用 专线 美国 [0.2]", server: bepshbgp01.004837963.xyz, port: 14094, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: d9aca024f3.iqiyi.com}}
   - {name: 🇺🇸 备用 美国 加密 01, server: 23.95.137.127, port: 8388, type: vmess, uuid: d18b5a2d-730f-4238-ac28-a44e59b39eb5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: bing.com, udp: true}
 
 #备用节点
@@ -123,7 +122,7 @@ proxy-groups:
       - 🇯🇵 主要 专线 日本 02
       - 🇯🇵 主要 专线 日本 03
       - 🇯🇵 备用 专线 日本 02
-      - 🇯🇵 日用 专线 日本 [0.2]
+
       - 🇯🇵 高级 专线 日本 01
       - 🇯🇵 高级 专线 日本 02
       - 🇯🇵 高级 专线 日本 03
@@ -133,7 +132,7 @@ proxy-groups:
       - 🇯🇵 高级 专线 日本 07
       - 🇯🇵 高级 专线 日本 08
       - 🇺🇸 备用 美国 加密 01
-      - 🇺🇸 日用 专线 美国 [0.2]
+
 
   - name: 🎯 全球直连
     type: select
