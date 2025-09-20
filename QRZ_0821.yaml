@@ -88,6 +88,12 @@ proxies:
   - {name: 🇯🇵 高级 专线 日本 06, server: bepshbgp01.004837963.xyz, port: 14126, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: d9aca024f3.iqiyi.com}}
   - {name: 🇯🇵 高级 专线 日本 07, server: bepshbgp01.004837963.xyz, port: 14127, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: d9aca024f3.iqiyi.com}}
   - {name: 🇯🇵 高级 专线 日本 08, server: bepshbgp01.004837963.xyz, port: 14128, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: d9aca024f3.iqiyi.com}}
+  - {name: 🇺🇸 标准 专线 美国 01, server: bepshbgp01.004837963.xyz, port: 14031, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: d9aca024f3.iqiyi.com}}
+  - {name: 🇺🇸 标准 专线 美国 02, server: bepshbgp01.004837963.xyz, port: 14032, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: d9aca024f3.iqiyi.com}}
+  - {name: 🇺🇸 标准 专线 美国 03, server: bepshbgp01.004837963.xyz, port: 14033, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: d9aca024f3.iqiyi.com}}
+  - {name: 🇺🇸 标准 专线 美国 04, server: bepshbgp01.004837963.xyz, port: 14034, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: d9aca024f3.iqiyi.com}}
+  - {name: 🇺🇸 标准 专线 美国 05, server: bepshbgp01.004837963.xyz, port: 14035, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: d9aca024f3.iqiyi.com}}
+  - {name: 🇺🇸 标准 专线 美国 06, server: bepshbgp01.004837963.xyz, port: 14036, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: d9aca024f3.iqiyi.com}}
 
   - {name: 🇺🇸 备用 美国 加密 01, server: 23.95.137.127, port: 8388, type: vmess, uuid: d18b5a2d-730f-4238-ac28-a44e59b39eb5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: bing.com, udp: true}
 
@@ -132,6 +138,13 @@ proxy-groups:
       - 🇯🇵 高级 专线 日本 07
       - 🇯🇵 高级 专线 日本 08
       - 🇺🇸 备用 美国 加密 01
+
+      - 🇺🇸 高级 专线 美国 01
+      - 🇺🇸 高级 专线 美国 02
+      - 🇺🇸 高级 专线 美国 03
+      - 🇺🇸 高级 专线 美国 04
+      - 🇺🇸 高级 专线 美国 05
+      - 🇺🇸 高级 专线 美国 06
 
 
   - name: 🎯 全球直连
@@ -3763,3 +3776,4 @@ rules:
   - IP-CIDR,101.199.196.0/22,🎯 全球直连,no-resolve
   - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼
+
