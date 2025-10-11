@@ -89,6 +89,15 @@ proxies:
   - {name: 🇯🇵 高级 专线 日本 07, server: bepshbgp01.004837963.xyz, port: 14127, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 970794aea1.iqiyi.com}}
   - {name: 🇯🇵 高级 专线 日本 08, server: bepshbgp01.004837963.xyz, port: 14128, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 970794aea1.iqiyi.com}}
 
+  - {name: 🇭🇰 高级 专线 香港 01, server: bepgzbgp01.004837963.xyz, port: 14101, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 970794aea1.iqiyi.com}}
+  - {name: 🇭🇰 高级 专线 香港 02, server: bepgzbgp01.004837963.xyz, port: 14102, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 970794aea1.iqiyi.com}}
+  - {name: 🇭🇰 高级 专线 香港 03, server: bepgzbgp01.004837963.xyz, port: 14103, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 970794aea1.iqiyi.com}}
+  - {name: 🇭🇰 高级 专线 香港 04, server: bepgzbgp01.004837963.xyz, port: 14104, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 970794aea1.iqiyi.com}}
+  - {name: 🇭🇰 高级 专线 香港 05, server: bepgzbgp01.004837963.xyz, port: 14105, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 970794aea1.iqiyi.com}}
+  - {name: 🇭🇰 高级 专线 香港 06, server: bepgzbgp01.004837963.xyz, port: 14106, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 970794aea1.iqiyi.com}}
+  - {name: 🇭🇰 高级 专线 香港 07, server: bepgzbgp01.004837963.xyz, port: 14107, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 970794aea1.iqiyi.com}}
+  - {name: 🇭🇰 高级 专线 香港 08, server: bepgzbgp01.004837963.xyz, port: 14108, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: 970794aea1.iqiyi.com}}
+
   - {name: 🇺🇸 备用 美国 加密 01, server: 23.95.137.127, port: 8388, type: vmess, uuid: d18b5a2d-730f-4238-ac28-a44e59b39eb5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: bing.com, udp: true}
 
 #备用节点
@@ -131,6 +140,16 @@ proxy-groups:
       - 🇯🇵 高级 专线 日本 06
       - 🇯🇵 高级 专线 日本 07
       - 🇯🇵 高级 专线 日本 08
+
+      - 🇭🇰 高级 专线 香港 01
+      - 🇭🇰 高级 专线 香港 02
+      - 🇭🇰 高级 专线 香港 03
+      - 🇭🇰 高级 专线 香港 04
+      - 🇭🇰 高级 专线 香港 05
+      - 🇭🇰 高级 专线 香港 06
+      - 🇭🇰 高级 专线 香港 07
+      - 🇭🇰 高级 专线 香港 08
+
       - 🇺🇸 备用 美国 加密 01
 
   - name: 🎯 全球直连
